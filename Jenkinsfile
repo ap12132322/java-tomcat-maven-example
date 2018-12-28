@@ -23,6 +23,7 @@ pipeline {
             steps{
 
                 build job : 'deploy servlet staging'
+                build job : 'static analysis servlet app'
 
             }
         }
